@@ -5,10 +5,7 @@ public class Asteroid : MonoBehaviour
     public float speed = 1;
     private float maxY = -5;
 
-    private void Update()
-    {
-        Move();
-    }
+    private void Update() => Move();
 
     public void Move()
     {
